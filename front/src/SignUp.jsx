@@ -27,7 +27,7 @@ class SignUp  extends Component {
                 prénom:{this.state.firstname} <br/>
                 nom:{this.state.lastname}<br/>
                 </h1>
-                
+
                 <input onChange={this.onChange} type="email" value={this.state.name} name="email" />
                 <input onChange={this.onChange} value={this.state.name} name="password" />
                 <input onChange={this.onChange} value={this.state.name} name="passwordCheck" />
